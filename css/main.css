@@ -1,0 +1,114 @@
+/*SITEWIDE STYLE RESETS*/
+/*select ALL HTML ELEMENTS - seriously be careful with this one*/
+
+* {
+	color: #000;
+}
+
+/*select any body element - normally there is just one*/
+
+
+body {
+	color: #222222;
+	margin:0;
+}
+/*select any anchor element*/
+a{
+	color: #222222;
+	text-decoration: none;
+}
+
+/*select any anchor elements that are hovered over*/
+
+a:hover {
+	color: #222222;
+	text-decoration: underline;
+}
+
+/*TOP SECTION - NAVIGATION*/
+/*select any ul element with a class of nav*/
+
+
+ul.nav{
+	float: right;
+	margin-right: 25px
+}
+
+/*select any li element, nested inside of any ul elemnt with a class of nav*/
+
+ul.nav li{
+	list-style: none;
+	display: inline-block;
+	text-align: right;
+	padding: 5px 10px 0 0;
+	vertical-align: bottom;
+	margin: 5px 5px 0 0;
+	font-size: 13px;
+}
+
+/*select any div element with a class of fa*/
+div.fa {
+	font-size: 20px;
+	vertical-align: top;
+	opacity: 0.7;
+	cursor: default;
+}
+
+/*select any div elements with a class of fa that are hovered over*/
+
+div.fa:hover{
+	opacity: 1.0;
+}
+
+
+/*select any span elements with a class of share*/
+
+span.share{
+	background-color: #f2f2f2;
+	padding: 7px 15px;
+	cursor: default;
+	position: relative;
+	top: -3px;
+}
+
+/*select any span elements with a class of share that are hovered over*/
+span.share:hover {
+	background-color: #e1e1e1;
+}
+
+/*select any img elements with a class of profile_img*/
+img.profile_img {
+	border-radius: 25px;
+	height: 32px;
+	width: 32px;
+	position: relative;
+	top: 9px;
+}
+
+/* middle section - search box */
+/*select any div element with a class of searchBox*/
+div.searchBox {
+	position: 	absolute;
+	margin-top: 75px;
+	width: 	100%;
+}
+
+/*select any img elemnt, nested inside of any div element with a class of searchBox*/
+div.searchBox img{
+	padding: 	142px 0 24px 0;
+	display: 	block;
+	margin: 0 auto;
+
+
+}
+
+/*select any input element, nested inside of any div elemnt with a class of searchBox*/
+div.searchBox input {
+	width: 	600px;
+	margin: 	0 auto;
+	padding: 	5px;
+	border: 	1px solid #d9d9d9;
+	font-style: 	16px;
+	border-radius: 	5px;
+	display: 	block;		
+}
