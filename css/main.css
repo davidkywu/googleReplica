@@ -200,7 +200,12 @@ div. bottom ul.right li a {
 }
 
 
-
+@media(max-width: 400px){
+	.share,
+	.profile_img{
+		display: none;
+	}
+}
 
 
 
